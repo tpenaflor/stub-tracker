@@ -7,5 +7,6 @@ def hello():
     name = request.args.get("name", "World")
     return f'Hello, {escape(name)}!'
 
-
+if __name__ == "__main__" :
+    app.run()
 # app.run(host='0.0.0.0',port=5000) #run app in debug mode on port 5000
