@@ -11,7 +11,7 @@ def index():
 
 
 @app.route('/page')
-def index():
+def page():
     return f'Another Page!'
 
 if __name__ == "__main__" :
