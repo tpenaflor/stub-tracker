@@ -9,6 +9,11 @@ def index():
     name = os.environ['USER']
     return f'Hello, {name}!'
 
+
+@app.route('/page')
+def index():
+    return f'Another Page!'
+
 if __name__ == "__main__" :
     app.run()
 
